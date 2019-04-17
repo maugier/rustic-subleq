@@ -1,0 +1,26 @@
+; example.sla
+
+.text
+
+    hello r1  ; r1 = r1 - hello
+    r1 stdout ;
+    (hello+1) r1 ;
+    r1 stdout ;
+    (hello+2) r1 ;
+    r1 stdout ;
+    0 0 0
+
+
+.data
+
+hello:
+    "Hi\n"
+
+
+;;;;;;;;
+;  0x3C   0x21 0x33
+;  0x3D   0x21 0x36
+;  0x3E   0x21 0x39
+;  0x00   0x00 0x00
+;  0xB9   0x97 0xF6
+: 
