@@ -1,0 +1,9 @@
+[package]
+name = "rustic-subleq"
+version = "0.1.0"
+authors = ["Maxime Augier <max@xolus.net>"]
+edition = "2018"
+
+[dependencies]
+clap = "~2.33.0"
+rand = "~0.6.5"
